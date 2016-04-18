@@ -1,0 +1,17 @@
+{
+    "title": "Crisis Dashboard",
+    "description": "Connecting people with services discreetly",
+    "author": "Rich Daley",
+    "options": {
+        "theme": "black",
+        "transition": "slide",
+        "controls": true,
+        "progress": true,
+        "history": true,
+        "center": true
+    },
+    "plugins": [
+        "markdown",
+        "notes"
+    ]
+}

@@ -1,0 +1,39 @@
+.reveal .marvel-device {
+  height: 700px;
+}
+.reveal iframe {
+  width: 100%;
+  height: 100%;
+}
+.reveal img.large {
+  height: 600px;
+}
+.reveal img.end {
+  background-color: transparent;
+  border: 0;
+}
+
+.reveal section.with-mockup {
+  padding: 0;
+}
+
+.reveal .grey {
+  color: #aaaaaa;
+}
+
+.reveal .left {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.reveal .right {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.reveal img.smallish {
+  height: 500px;
+}

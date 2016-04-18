@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Crisis dashboard</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/slate/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .col-xs-2 {
+        padding-top: 0.5em;
+        text-align: right;
+      }
+      .col-xs-2 button {
+        margin-top: 0.5em;
+      }
+      h3 {
+        margin-top: 0.5em;
+      }
+      .scared {
+        color: #cc8000;
+      }
+      .injured {
+        color: #cc0000;
+      }
+      .safe {
+        color: #00cc00;
+      }
+      img {
+        max-width: 100%;
+        margin-top: 6em;
+      }
+      body {
+        margin-top: 9em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="map.svg">
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-xs-10">
+              <h3>Alert in Meanwood: <span class="scared">Scared</span></h3>
+              <p>Joan Doe.. my partner is scaring me</p>
+            </div>
+            <div class="col-xs-2">
+              9:40pm<br>
+              <button class="btn btn-info">More</button>
+            </div>
+          </div>
+          <div class="row"><hr></div>
+          <div class="row">
+            <div class="col-xs-10">
+              <h3>Alert in Chapel Allerton: <span class="injured">Injured</span></h3>
+              <p>Audrey Horne - I fell down the stairs and my ear is bleeding</p>
+            </div>
+            <div class="col-xs-2">
+              9:33pm<br>
+              <button class="btn btn-info">More</button>
+            </div>
+          </div>
+          <div class="row"><hr></div>
+          <div class="row">
+            <div class="col-xs-10">
+              <h3>Alert in Beeston: <span class="safe">Safe</span></h3>
+              <p>J Smith again... he's stormed out so I'm alone again</p>
+            </div>
+            <div class="col-xs-2">
+              9:25pm<br>
+              <button class="btn btn-info">More</button>
+            </div>
+          </div>
+          <div class="row"><hr></div>
+          <div class="row">
+            <div class="col-xs-10">
+              <h3>Alert in Beeston: <span class="scared">Scared</span></h3>
+              <p>J Smith... he's screaming at me - I'm locked in</p>
+            </div>
+            <div class="col-xs-2">
+              9:22pm<br>
+              <button class="btn btn-info">More</button>
+            </div>
+          </div>
+          <div class="row"><hr></div>
+          <div class="row">
+            <div class="col-xs-10">
+              <h3>Alert in Wetherby: <span class="injured">Injured</span></h3>
+              <p>RS ... fell through door and cut myself</p>
+            </div>
+            <div class="col-xs-2">
+              9:17pm<br>
+              <button class="btn btn-info">More</button>
+            </div>
+          </div>
+          <div class="row"><hr></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
